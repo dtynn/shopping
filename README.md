@@ -14,7 +14,7 @@ npm install -g pm2 nodemon
 
 // get the source code
 git clone git@github.com:dtynn/shopping.git
-cd shoppint
+cd shopping
 
 // install packages
 npm install
