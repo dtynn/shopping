@@ -1,0 +1,17 @@
+{
+    "apps": [
+        {
+            "name": "shopping",
+            "script": "./app.js",
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "ignoreWatch": [
+                "node_modules"
+            ],
+            "watch": "false",
+            "exec_mode": "fork_mode",
+            "env": {
+                "NODE_ENV": "prod"
+            }
+        }
+    ]
+}
